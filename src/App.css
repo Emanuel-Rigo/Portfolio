@@ -1,0 +1,349 @@
+body {
+  background: #e2ddd5;
+}
+
+#root {
+  padding-left: 99px;
+}
+
+header {
+  min-height: 100vh;
+}
+.colorCrema {
+  background-color: #aca391;
+}
+
+/*////ASIDE////*/
+
+.myaside {
+  width: 75px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  transition: 1s ease-out;
+  z-index: 400;
+}
+
+.myaside__container {
+  overflow: hidden;
+  background: #f5f2ed;
+  border: solid 3px rgb(8, 8, 8);
+  border-radius: 1rem;
+}
+
+.aside__container:hover {
+  border-radius: 3px solid white;
+}
+
+.bgd-transparent {
+  border-radius: 1rem;
+  background: #f5f2ed;
+  border: solid 3px #222;
+}
+
+.myaside:hover {
+  width: 305px;
+}
+
+.myaside:focus {
+  width: 370px;
+}
+
+.aside__container {
+  width: 660px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: none;
+  height: 47px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.aside__container i {
+  font-size: 35px;
+  color: #100e0e;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.aside__container p {
+  box-shadow: 300px 5px 0px -2px rgba(0, 0, 0, 1);
+  width: 100%;
+  transition: 0.3s;
+}
+
+.aside__container:hover p {
+  box-shadow: 1px 5px 0px -2px rgba(0, 0, 0, 1);
+}
+
+.aside__container:hover i {
+  transform: scale(1.2);
+}
+
+.myaside p {
+  display: inline-block;
+  color: #100e0e;
+  margin-left: 24px;
+  margin-bottom: 0;
+}
+
+.certificate__icon {
+  font-size: 35px;
+  color: #100e0e;
+}
+/*/////*/
+
+/*/////Header///*/
+
+.lineas {
+  display: inline-block;
+  position: relative;
+  left: 110px;
+}
+
+.lineas::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background-color: currentColor;
+  top: 0.8em;
+  left: -110px;
+}
+
+.header__title {
+  font-family: "Permanent Marker", cursive;
+
+  font-size: 3.7rem;
+}
+
+.header__btn {
+  border: none;
+  background-color: transparent;
+  transition: 0.2s;
+}
+
+.header__btn img {
+  height: 4rem;
+}
+
+.header__btn p {
+  position: relative;
+  top: -60px;
+  font-size: 2rem;
+  font-family: "Permanent Marker", cursive;
+  transition: 0.1s;
+}
+
+.header__btn:hover {
+  transform: scale(1.1);
+}
+
+/*///////*/
+
+/*///SKILLS///*/
+
+.skills {
+  width: 100%;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+  min-height: 45vh;
+}
+
+.skills__container {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.icono {
+  color: #222;
+  font-size: 80px;
+  transition: all 0.3s ease;
+  padding: 15px;
+}
+
+.icono:hover {
+  transform: scale(1);
+}
+
+.icono:hover.html {
+  color: #e34c26;
+}
+.icono:hover.css {
+  color: #264de4;
+}
+.icono:hover.js {
+  color: #f0db4f;
+}
+.icono:hover.react {
+  color: #61dbfb;
+}
+.icono:hover.nodejs {
+  color: #68a063;
+}
+.icono:hover.bootstrap {
+  color: #553c7b;
+}
+.icono:hover.tailwind {
+  color: #0ab0fd;
+}
+.icono:hover.github {
+  color: #fff;
+}
+.icono:hover.git {
+  color: #f1502f;
+}
+.icono:hover.firebase {
+  color: #ffcb2b;
+}
+.icono:hover.sass {
+  color: #cc6699;
+}
+
+.skills__proyects-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.skills__proyects {
+  background-color: #222;
+  width: 470px;
+  height: 700px;
+}
+
+.contenedor {
+  position: relative;
+}
+
+.circulo {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  background-color: #222;
+  position: absolute;
+  transform: scale(0);
+  transition: 0.4s;
+}
+
+.contenedor:hover .circulo {
+  transform: scale(1);
+}
+/*//////*/
+
+/*////project-card///*/
+
+.project__icon {
+  transition: 0.4s;
+}
+
+.project__icon:hover {
+  transform: scale(1.4);
+}
+
+.projectCard__img {
+  object-fit: cover;
+  filter: brightness(0.5) sepia(0.4);
+  transition: 0.1s;
+  cursor: pointer;
+  height: 10rem;
+}
+
+.projectCard__description {
+  cursor: pointer;
+}
+
+.projectCard__description.text-truncate {
+  width: 80%;
+  transition: 0.5s;
+}
+
+.projectCard__description:hover.text-truncate {
+  width: 100%;
+}
+
+.projectCard__img:hover {
+  filter: brightness(1);
+  outline: solid 3px #222;
+}
+
+.projectCard__gitIcon {
+  height: 2.3rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.projectCard svg {
+  font-size: 1.5rem;
+}
+
+.projectCard__gitIcon:hover {
+  transform: scale(1.5);
+}
+
+/*/////*/
+
+.bg-danger {
+  height: 100%;
+}
+
+.wave {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: -10;
+}
+
+/*///FORM////*/
+
+.form__contact {
+  position: relative;
+}
+
+.form__btn {
+  position: absolute;
+  right: 35px;
+}
+
+/*///FOOTER///*/
+
+.footer__a {
+  color: #222;
+  text-decoration: none;
+  position: relative;
+}
+
+footer svg {
+  font-size: 2rem;
+}
+
+.outline {
+  width: 100%;
+  height: 100%;
+  outline: 2px solid #222;
+  border-radius: 100%;
+  position: absolute;
+  transform: scale(0);
+  transition: 0.4s;
+}
+
+.footer__a:hover .outline {
+  transform: scale(1.2);
+}
