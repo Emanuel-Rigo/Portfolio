@@ -25,8 +25,8 @@ function ProjectContainer() {
             image={"cafe 00.png"}
             name={"Cafe"}
             description={"Website for an oriental cafeteria in Buenos Aires."}
-            linkGithub={"https://github.com/EmanuelRigo/cafe"}
-            linkHosting={"https://cafe-one-beige.vercel.app/"}
+            linkGithub={"https://github.com/Emanuel-Rigo/Cafe"}
+            linkHosting={"https://cafe-pink.vercel.app/"}
             icons={[
               <AiFillHtml5 className="project__icon" />,
               <BiLogoCss3 className="project__icon" />,
@@ -38,8 +38,8 @@ function ProjectContainer() {
             description={
               "A web platform simulating flights, integrating real-time weather data via JavaScript and a weather API."
             }
-            linkGithub={"https://github.com/EmanuelRigo/Preentrega-Coderhouse"}
-            linkHosting={"https://preentrega-coderhouse.vercel.app/"}
+            linkGithub={"https://github.com/Emanuel-Rigo/Travel-simulator"}
+            linkHosting={"https://travel-simulator.vercel.app/"}
             icons={[
               <BiLogoJavascript className="project__icon" />,
               <AiFillHtml5 className="project__icon" />,
@@ -55,7 +55,7 @@ function ProjectContainer() {
               "Build a ToDo List app in Next.js: create, read, update, and delete tasks with a user-friendly interface."
             }
             linkGithub={
-              "https://github.com/EmanuelRigo/ToDoList-NextJS-prisma-TS"
+              "https://github.com/Emanuel-Rigo/ToDoList"
             }
             linkHosting={"https://to-do-list-next-js-prisma-ts.vercel.app/"}
             icons={[
@@ -75,9 +75,9 @@ function ProjectContainer() {
               "E-commerce nextjs. replica of the tesla store. Practice with Fernando Herrera"
             }
             linkGithub={
-              "https://github.com/EmanuelRigo/Practica-NextJS-teslo-shop.git"
+              "https://github.com/Emanuel-Rigo/Teslo-Shop"
             }
-            linkHosting={"https://practica-next-js-teslo-shop.vercel.app/"}
+            linkHosting={"https://teslo-shop-one-gamma.vercel.app/"}
             icons={[
               <BiLogoJavascript className="project__icon" />,
               <AiFillHtml5 className="project__icon" />,
@@ -97,8 +97,8 @@ function ProjectContainer() {
             description={
               "E-commerce React: Technology and gaming merged to offer a dynamic shopping experience"
             }
-            linkGithub="https://github.com/EmanuelRigo/e-techstore"
-            linkHosting={"https://e-techstore.vercel.app/"}
+            linkGithub="https://github.com/Emanuel-Rigo/E-techstore"
+            linkHosting={"https://e-techstore-rho.vercel.app/"}
             icons={[
               <BiLogoReact className="project__icon" />,
               <AiFillHtml5 className="project__icon" />,
@@ -113,8 +113,8 @@ function ProjectContainer() {
             name="Lab"
             description="Website and system for a clinical laboratory
             user: maira.lab / password: 8787"
-            linkGithub="https://github.com/EmanuelRigo/lab"
-            linkHosting={"https://lab-paroti.netlify.app/"}
+            linkGithub="https://github.com/Emanuel-Rigo/Lab-Paroti"
+            linkHosting={"https://lab-paroti.vercel.app/"}
             icons={[
               <AiFillHtml5 className="project__icon" />,
               <BiLogoCss3 className="project__icon" />,
@@ -127,8 +127,8 @@ function ProjectContainer() {
             image={"../images/masterquiz 00.png"}
             name={"MasterQuiz"}
             description={"Trivia application with various categories."}
-            linkGithub="https://github.com/EmanuelRigo/masterquiz"
-            linkHosting={"https://masterquiz.vercel.app/"}
+            linkGithub="https://github.com/Emanuel-Rigo/Masterquiz"
+            linkHosting={"https://masterquiz-beta.vercel.app/"}
             icons={[
               <BiLogoReact className="project__icon" />,
               <AiFillHtml5 className="project__icon" />,
@@ -144,8 +144,8 @@ function ProjectContainer() {
             description={
               "The first application I made. Website with movies info. user: maira@hotmail.com / password: 8787"
             }
-            linkGithub="https://github.com/EmanuelRigo/videoteca"
-            linkHosting={"https://videoteca-dun.vercel.app/"}
+            linkGithub="https://github.com/Emanuel-Rigo/Videoteca"
+            linkHosting={"https://videoteca-alpha.vercel.app/"}
             icons={[
               <AiFillHtml5 className="project__icon" />,
               <BiLogoCss3 className="project__icon" />,
@@ -158,9 +158,9 @@ function ProjectContainer() {
             description={
               "SQL project for managing a lab, with functions and procedures for tests and results."
             }
-            linkGithub="https://github.com/EmanuelRigo/entrega-final-sql-coderhouse"
+            linkGithub="https://github.com/Emanuel-Rigo/Lab-SQL"
             linkHosting={
-              "https://github.com/EmanuelRigo/entrega-final-sql-coderhouse"
+              "https://github.com/Emanuel-Rigo/Lab-SQL"
             }
             icons={[<GrMysql className="project__icon" />]}
           />
